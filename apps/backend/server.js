@@ -5,7 +5,7 @@ const rateLimit = require('express-rate-limit');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-const uploadVideo = require('./src/routes/uploadVideo');
+// const uploadVideo = require('./src/routes/uploadVideo');
 const downloadCertificate = require('./src/routes/downloadCertificate');
 const downloadLesson = require('./src/routes/downloadLesson');
 const downloadCourse = require('./src/routes/downloadCourse');
