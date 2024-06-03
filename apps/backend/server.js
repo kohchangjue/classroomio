@@ -33,7 +33,7 @@ app.use(limiter);
 app.use('/downloadCertificate', downloadCertificate);
 app.use('/downloadLesson', downloadLesson);
 app.use('/downloadCourse', downloadCourse);
-app.use('/uploadVideo', uploadVideo);
+// app.use('/uploadVideo', uploadVideo);
 app.use('/katex', katex);
 app.use('/sendEmail', sendEmail);
 
