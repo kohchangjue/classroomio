@@ -34,9 +34,9 @@
   </div>
 
   <PageSignupCTA
-    header="Spend less time managing your LMS and more time training with ClassroomIO"
-    subText="Try before you buy. No credit card required."
-    btnLabel="Book a demo"
-    link="classroomio/demo"
+    header="Take Charge of Your Child’s Education. "
+    subText="Try before you join. No credit card required."
+    btnLabel="Book now"
+    link="#"
   />
 </div>

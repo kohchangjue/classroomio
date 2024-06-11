@@ -5,10 +5,8 @@
   import { PUBLIC_ENABLE_USERS_COMPANIES } from '$env/static/public';
 
   const names = [
-    { label: 'Bootcamp', color: '#3ADFEC' },
-    { label: 'Course', color: '#BF0696' },
-    { label: 'Training', color: '#0233BD' },
-    { label: 'Academy', color: '#9747FF' }
+    { label: 'Thinkers', color: '#3ADFEC' },
+    { label: 'Makers', color: '#BF0696' }
   ];
   let animate = false;
   let titleIndex = 0;
@@ -74,7 +72,7 @@
             href="/github"
             target="_blank"
             class="px-6 py-2 border-[1.5px] border-[#BF0696] rounded-[4px] bg-white text-[#BF0696] text-lg font-bold"
-            >Open Source</a
+            >Grow With Tech</a
           >
           <svg
             class="absolute -right-1 -bottom-2.5"
@@ -92,12 +90,12 @@
 
     <div class="w-full">
       <div
-        class="font-bold md:leading-[1.5] text-left lg:text-center ml-6 text-slate-900 text-4xl lg:text-7xl"
+        class="font-bold md:leading-[1.5] text-left lg:text-center ml-6 text-slate-900 text-4xl lg:text-6xl"
       >
-        <span>Launch Your Online</span> <br />
+        <span>Inspiring The Next Generation of</span> <br />
         <div class="flex-wrap flex items-center lg:gap-3">
           <span
-            class="w-full lg:w-[48%] h-[40px] md:h-[50px] lg:h-[90px] mb-0 mt-1 md:mt-0 lg:-mb-4 relative inline-block overflow-hidden"
+            class="w-full lg:w-[42%] h-[40px] md:h-[50px] lg:h-[90px] mb-0 mt-1 md:mt-0 lg:-mb-4 relative inline-block overflow-hidden"
           >
             {#key titleIndex}
               <span
@@ -109,13 +107,14 @@
               </span>
             {/key}
           </span>
-          <span>In Minutes</span>
+          <span>With Brilliantaire</span>
         </div>
       </div>
 
       <p class="text-base mx-auto mt-10 px-4 text-slate-700 md:text-lg lg:mt-6 lg:w-[42%] lg:p-0">
-        ClassroomIO is an open source learning management system for small and medium bootcamps that
-        wants to set up a fully customizable online teaching platform quickly.
+        Brilliantaire is dedicated to transforming education for children, providing them with the opportunity to learn essential future skills.
+        By preparing children for the technological advancements of tomorrow, 
+        Brilliantaire aims to empower the next generation to thrive in an increasingly digital and interconnected world.
       </p>
     </div>
 
@@ -128,7 +127,7 @@
           <a
             href="/#customization"
             class="px-6 py-2 border-[1.5px] border-[#0233BD] rounded-[4px] bg-white text-[#0233BD] text-lg font-bold"
-            >Customizable LMS</a
+            >Professional Tutors</a
           >
 
           <svg
@@ -149,7 +148,7 @@
           <a
             href="/#ai"
             class="px-6 py-2 border-[1.5px] border-[#9747FF] rounded-[4px] bg-white text-[#9747FF] text-lg font-bold"
-            >AI Support</a
+            >AI Supported LMS Platform</a
           >
 
           <svg
@@ -179,7 +178,7 @@
         href="/signup"
         rel="noopener noreferrer nofollow"
       >
-        Sign Up for Free
+        Join Us Now
       </a>
       <!-- <a
       class="font-medium lg:font-semibold text-sm md:text-base w-11/12 md:w-fit border px-6 py-3 lg:px-10 lg:py-5 rounded-md"

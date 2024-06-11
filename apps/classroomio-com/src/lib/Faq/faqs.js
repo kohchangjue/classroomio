@@ -1,32 +1,32 @@
 export const faqs = [
   {
-    question: 'Who can benefit from ClassroomIO?',
+    question: 'Who can benefit from Brilliantaire?',
     answer:
-      'We built ClassroomIO from the ground up for Educators, meaning if you teach online or in a physical classroom you are good to go. It works best for Educators who already have students and want an efficient way to manage their learning experience.',
+      'Ans here...',
   },
   {
-    question: 'Will I be able to set up ClassroomIO without technical skills?',
+    question: 'Will I be able to set up Brilliantaire without technical skills?',
     answer:
-      'Most definitely. You can use ClassroomIO as a no-code tool to build your own LMS platform. We provide an intuitive user interface and documentation to help you give your students the best learning experience.',
+      'Ans here...',
   },
   {
-    question: 'How much customization can I do with ClassroomIO?',
+    question: 'What tools are available for parents?',
     answer:
-      'Things like theming, organization name, landing pages, content that your students see and many more customization options to come.',
+      'Ans here...',
   },
   {
-    question: 'Is ClassroomIO suitable for a large number of students?',
+    question: 'Anything need to purchase (textbooks, materials etc) before kick start?',
     answer:
-      'Absolutely. ClassroomIO is built for a large number of students in any course. You can have multiple courses with as many students as you need.',
+      'Ans here...',
   },
   {
-    question: 'What kind of team plans does ClassroomIO offer?',
+    question: 'What kind of plans does Brilliantaire offer?',
     answer:
-      'ClassroomIO offers a Team plan designed to cater to organizations of any size. Depending on the plan you select, you can invite other teachers into your organization.',
+      'Ans here...',
   },
   {
-    question: 'Can I try ClassroomIO before I buy it?',
+    question: 'Does Brilliantaire provide free trail class session?',
     answer:
-      'Definitely. We’ve got a generous free plan to help you get started with the platform. As your requirements grow, we’ve got other plans that can grow with you.',
+      'Ans here...',
   },
 ];
