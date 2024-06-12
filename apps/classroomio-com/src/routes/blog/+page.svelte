@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-  <title>Blog | ClassroomIO</title>
+  <title>Blog | Brilliantaire</title>
 </svelte:head>
 
 <section>
@@ -17,10 +17,10 @@
       class="mx-auto text-4xl md:text-7xl lg:text-6xl font-bold text-slate-900 flex flex-col items-center"
     >
       <span>What's new on</span>
-      <span class="text-blue-700 relative">ClassroomIO?</span>
+      <span class="text-blue-700 relative">Brilliantaire?</span>
     </h1>
     <p class="w-[90%] md:w-[60%] text-center font-normal text-lg text-slate-700 mt-10 lg:mt-7">
-      Get the latest news from ClassroomIO, including product updates, team announcements and more!
+      Get the latest news from Brilliantaire, including course updates, team announcements and more!
     </p>
   </PageHeader>
   <div class="w-full flex items-center justify-center">
@@ -59,9 +59,9 @@
   </div>
 
   <PageSignupCTA
-    header="Ready To Launch Your First Training?"
-    subText="It's free to sign up and start getting value out of the product."
-    btnLabel="Sign me up"
+    header="Ready To Let Your Kid Join Us?"
+    subText="Try before you join. No credit card required."
+    btnLabel="Book Now"
     link="/signup"
     demo={false}
   />

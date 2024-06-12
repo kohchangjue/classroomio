@@ -11,9 +11,9 @@
 
 <Hero />
 <Body />
-<StudentDashboard />
-<Testimonial />
-<MoreFeatures />
+<!-- <StudentDashboard /> -->
+<!-- <Testimonial /> -->
+<!-- <MoreFeatures /> -->
 
 
 {#if PUBLIC_ENABLE_FAQ}

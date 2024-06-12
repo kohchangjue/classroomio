@@ -4,36 +4,36 @@
 </script>
 
 <Section
-  id="coursemanagement"
-  tagline="Simplified"
-  title="Course Management"
-  description="ClassroomIO simplifies teaching tasks, boosts the educational experience, and is beneficial for both educators and students, providing a user-friendly platform for assessment, grading, attendance, and scorebook management."
-  video="https://brand.cdn.clsrio.com/course-management.mp4"
-  rightToLeft={true}
-/>
-<Section
-  id="ai"
-  tagline="Efficient"
-  title="AI Support"
-  description="Our platform integrates AI to simplify lesson outline generation, streamline lesson planning and spark creative ideas. With ClassroomIO, educators can focus on what matters most: teaching."
-  rightToLeft={false}
-  video="https://brand.cdn.clsrio.com/ai-lesson.mp4"
-/>
-<Section
-  id="customization"
-  tagline="Flexible"
-  title="Dashboard Customization"
-  description="ClassroomIO offers organizations the ability to tailor our LMS to their specific requirements. With our customizable features, you can create a personalized learning environment that aligns with your organization's goals"
-  rightToLeft={true}
-  video="https://brand.cdn.clsrio.com/lms-customization.mp4"
-/>
-<Section
   id="collaboration"
   tagline="Collaborative"
   title="Student and Teacher Community"
-  description="Our platform includes a forum-like feature where students and teachers can ask and answer questions, creating a collaborative learning environment. This fosters engagement and knowledge sharing among the community"
-  video="https://brand.cdn.clsrio.com/community.mp4"
+  description="Our in-house LMS platform includes a forum-like feature where students and teachers can ask and answer questions, creating a collaborative learning environment. This fosters engagement and knowledge sharing among the community"
+  src="/brainstorming.svg"
   rightToLeft={false}
+/>
+<Section
+  id="growwithtech"
+  tagline="Grow With Tech"
+  title="Brilliantaire: Where Kids Grow with Technology"
+  description="At Brilliantaire, we believe in nurturing young minds to thrive in a tech-driven world. Our programs introduce children to the fascinating realms of robotics, artificial intelligence, and technology, sparking their curiosity and creativity. Join us on a journey where young learners not only grow with tech but also shape the future with innovation and knowledge."
+  src="/drone.svg"
+  rightToLeft={true}
+/>
+<Section
+  id="professionaltutor"
+  tagline="Professional Tutor"
+  title="Brilliantaire Professional Tutoring: Where Expertise Leads the Way"
+  description="At Brilliantaire, we bring you the expertise of tutors who hail from esteemed tech industries, each boasting over 10 years of invaluable experience. With personalized guidance tailored to your needs, our tutors ensure that you not only master the intricacies of technology but also gain practical insights from real-world applications."
+  rightToLeft={true}
+  src="/teacher.svg"
+/>
+<Section
+  id="aiorientedlms"
+  tagline="AI Oriented In House LMS"
+  title="Where AI Meets Education, Every Step of the Way"
+  description="We harness the power of artificial intelligence to personalize learning experiences, adapt curriculum to individual needs, and optimize educational outcomes. With cutting-edge AI technologies at your fingertips, embark on a journey of discovery and mastery in the realm of artificial intelligence. Join AIcademy and revolutionize the way you learn, one algorithm at a time"
+  rightToLeft={false}
+  src="/artificial-intelligence.svg"
 />
 
 <!-- body section 5 -->

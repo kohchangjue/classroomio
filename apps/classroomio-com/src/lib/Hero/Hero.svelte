@@ -30,7 +30,7 @@
 
 <div class="hero-bg relative border-b-2 text-center bg-[#F5F8FE] h-full mt-[5%] w-full">
   <div class="pt-24 w-full">
-    <div class="mb-10 ml-[5%] lg:ml-0 flex w-full items-center justify-start lg:justify-center">
+    <!-- <div class="mb-10 ml-[5%] lg:ml-0 flex w-full items-center justify-start lg:justify-center">
       <a
         target="_blank"
         rel="noopener noreferrer nofollow"
@@ -39,7 +39,7 @@
         class="rounded-full border-2 border-[#C2D2FF] px-4 py-1 text-sm font-medium bg-[#DCE5FF] text-[#4B5563] hover:underline"
         >We are <span class="text-blue-700">100%</span> open source</a
       >
-    </div>
+    </div> -->
 
     <div class="justify-between w-[90%] absolute top-[10%] left-[5%] hidden lg:flex">
       {#if animate}
@@ -69,8 +69,7 @@
           transition:fly={{ x: 100, delay: 50, easing: sineInOut }}
         >
           <a
-            href="/github"
-            target="_blank"
+            href="/#growwithtech"
             class="px-6 py-2 border-[1.5px] border-[#BF0696] rounded-[4px] bg-white text-[#BF0696] text-lg font-bold"
             >Grow With Tech</a
           >
@@ -125,7 +124,7 @@
           transition:fly={{ x: -100, delay: 100, easing: sineInOut }}
         >
           <a
-            href="/#customization"
+            href="/#professionaltutor"
             class="px-6 py-2 border-[1.5px] border-[#0233BD] rounded-[4px] bg-white text-[#0233BD] text-lg font-bold"
             >Professional Tutors</a
           >
@@ -146,9 +145,9 @@
           transition:fly={{ y: 100, delay: 150, easing: sineInOut }}
         >
           <a
-            href="/#ai"
+            href="/#aiorientedlms"
             class="px-6 py-2 border-[1.5px] border-[#9747FF] rounded-[4px] bg-white text-[#9747FF] text-lg font-bold"
-            >AI Supported LMS Platform</a
+            >AI Oriented LMS Platform</a
           >
 
           <svg
@@ -204,7 +203,15 @@
       style="position: relative; padding-bottom: calc(50% + 42px);"
       class="mx-auto w-[85%] lg:w-[70%]"
     >
-      <iframe
+
+    <img
+    loading="lazy"
+    src="/STEM.png"
+    alt=""
+    style="position: absolute; top: 0; left: 0; width: 100%;"
+  />
+
+      <!-- <iframe
         title="ClassroomIO Live Demo"
         src="https://app.supademo.com/embed/cluw8chyy06nhq2s9m697a680"
         allow="clipboard-write"
@@ -213,7 +220,7 @@
         mozallowfullscreen="true"
         allowfullscreen
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-      ></iframe>
+      ></iframe> -->
     </div>
 
     {#if PUBLIC_ENABLE_USERS_COMPANIES}

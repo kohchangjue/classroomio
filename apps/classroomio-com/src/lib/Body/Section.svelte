@@ -7,6 +7,7 @@
   export let title = '';
   export let description = '';
   export let video = '';
+  export let src = '';
   export let taglineIcon = '';
 </script>
 
@@ -45,7 +46,7 @@
       {/if}
     </div>
     <div class="w-[80vw] md:w-[80vw] lg:w-full">
-      <video
+      <!-- <video
         width="100%"
         height="100%"
         class="w-full h-auto lg:max-h-[80%] rounded-md shadow-xl"
@@ -58,7 +59,9 @@
       >
         <source src={video} type="video/mp4" />
         <track kind="captions" />
-      </video>
+      </video> -->
+
+      <img src="{src}"/>
     </div>
   </div>
 </section>

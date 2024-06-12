@@ -23,24 +23,24 @@
 
   const superpowers = [
     {
-      key: 'coursemanagement',
-      title: 'Course Management',
-      subtitle: 'Simple course management tools'
-    },
-    {
-      key: 'ai',
-      title: 'AI Support',
-      subtitle: 'Double your productivity with AI'
-    },
-    {
-      key: 'customization',
-      title: 'Dashboard Customization',
-      subtitle: 'Customize your classroom to your needs'
-    },
-    {
       key: 'collaboration',
       title: 'Community',
       subtitle: 'Seamlessly collaborate with your students'
+    },
+    {
+      key: 'growwithtech',
+      title: 'Empowering kid\'s minds',
+      subtitle: 'Shape the future with tech'
+    },
+    {
+      key: 'professionaltutor',
+      title: 'Expert Involve',
+      subtitle: 'Let expert lead the ways'
+    },
+    {
+      key: 'aiorientedlms',
+      title: 'AI Support',
+      subtitle: 'Double your productivity with AI'
     }
   ];
 
@@ -56,11 +56,11 @@
     <div class="flex items-center w-full">
       <img
         loading="lazy"
-        width="28"
-        height="28"
-        src="/logo-512.png"
-        alt="classroomio logo"
-        class="w-6 md:w-10"
+        width="48"
+        height="48"
+        src="/balogo.png"
+        alt="brilliantaire logo"
+        class="w-8 md:w-10"
       />
       <h1 class="text-xs md:text-lg font-medium ml-2">Brilliantaire</h1>
     </div>
@@ -88,13 +88,13 @@
                   showNav = !showNav;
                 }}
               >
-                {#if superpower.key === 'coursemanagement'}
-                  <CourseIcon />
-                {:else if superpower.key === 'customization'}
+                {#if superpower.key === 'collaboration'}
+                <ForumIcon size={24} />
+                {:else if superpower.key === 'growwithtech'}
                   <MapCenter size={24} />
-                {:else if superpower.key === 'collaboration'}
-                  <ForumIcon size={24} />
-                {:else if superpower.key === 'ai'}
+                {:else if superpower.key === 'professionaltutor'}
+                <CourseIcon />
+                {:else if superpower.key === 'aiorientedlms'}
                   <MachineLearningModel size={24} />
                 {/if}
                 <div class="w-[86%] text-start">
@@ -110,22 +110,7 @@
           </div>
         {/if}
       </li>
-      <a
-        href="/pricing"
-        class="text-gray-800 font-semibold text-sm cursor-pointer"
-        class:active={activeLink.startsWith('/pricing')}
-      >
-        <li class="hover:bg-gray-100 px-4 py-2 rounded-md">Pricing</li>
-      </a>
-      <a
-        href="/docs"
-        target="_blank"
-        class="text-gray-800 font-semibold text-sm cursor-pointer"
-        class:active={activeLink.startsWith('/docs')}
-      >
-        <li class="hover:bg-gray-100 px-4 py-2 rounded-md">Docs</li>
-      </a>
-
+      
       <a
         href="/blog"
         class="text-gray-800 font-semibold text-sm cursor-pointer"
@@ -133,6 +118,24 @@
       >
         <li class="hover:bg-gray-100 px-4 py-2 rounded-md">Blog</li>
       </a>
+
+      <!-- <a
+        href="/pricing"
+        class="text-gray-800 font-semibold text-sm cursor-pointer"
+        class:active={activeLink.startsWith('/pricing')}
+      >
+      </a> -->
+      <li class="text-gray-800 font-semibold text-sm cursor-pointer hover:bg-gray-100 px-4 py-2 rounded-md">Course Offer (Upcoming)</li>
+
+      <!-- <a
+        href="/docs"
+        target="_blank"
+        class="text-gray-800 font-semibold text-sm cursor-pointer"
+        class:active={activeLink.startsWith('/docs')}
+      >
+        <li class="hover:bg-gray-100 px-4 py-2 rounded-md">About Us  (Upcoming)</li>
+      </a> -->
+
     </ul>
   </nav>
 

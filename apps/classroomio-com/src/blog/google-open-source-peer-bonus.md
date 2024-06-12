@@ -1,14 +1,14 @@
 ---
-title: 'Google Open Source Peer Bonus'
-description: 'I am happy to announce that we got selected to the 2024 Google Peer Open Source Bonus'
+title: 'Our First Centre Launch At Petaling Jaya'
+description: 'I am happy to announce that we got launch our first centre at Petaling Jaya. Follow us in Insta, FB and X to get more news.'
 date: '2024-05-25'
-author: Rotimi Best
-avatar: /blog/best.jpg
+author: Ethan Yeoh
+avatar: /Dr Ethan.jpg
 role: Founder
-tags: ['Sponsorship', 'Google']
+tags: ['First Centre', 'Excited']
 published: true
 ---
-
+<!-- 
 ![best](/blog/google-os-peer-bonus-classroomio.png)
 _Our announcement flyer of the Google Open Source Peer Bonus_
 
@@ -31,4 +31,4 @@ I received the award letter this week and the official blog post will be made on
 ![bonus-letter](/blog/os-peer-bonus-award-letter-classroomio.jpg)
 _OS Peer Bonus H1 2024 - Best Ibitoye-Rotimi - OSPB Award Letter_
 
-As regards the financial bonus, I have no idea how much Google is giving out to each person that was selected however we've been told to setup a Pionner account and in few days the payout will be made. Once I receive it, I will share exactly how much we received 😉.
+As regards the financial bonus, I have no idea how much Google is giving out to each person that was selected however we've been told to setup a Pionner account and in few days the payout will be made. Once I receive it, I will share exactly how much we received 😉. -->
