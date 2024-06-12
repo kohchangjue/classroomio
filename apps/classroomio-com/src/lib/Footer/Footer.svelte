@@ -60,7 +60,7 @@
     <nav
       class="mt-16 flex w-full flex-col items-start justify-between gap-3 space-y-6 lg:mt-0 lg:w-2/4 lg:flex-row lg:space-y-0"
     >
-      <div>
+      <!-- <div>
         <p class="lg:text-base mb-3 text-base font-semibold leading-6 text-gray-900 lg:mb-10">
           Product
         </p>
@@ -91,7 +91,7 @@
             <a href="/#student-dashboard"> Student Dashboard </a>
           </li>
         </ul>
-      </div>
+      </div> -->
 
       <div>
         <p class="lg:text-base mb-3 text-base font-semibold leading-6 text-gray-900 lg:mb-10">
