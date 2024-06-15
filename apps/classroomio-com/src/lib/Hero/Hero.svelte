@@ -167,14 +167,14 @@
     <div class="my-10 flex flex-col items-center justify-center gap-4 md:flex-row">
       <a
         class="md:text-base w-11/12 rounded-md border-gray-200 border-2 px-6 py-3 text-sm font-medium text-center transition-all delay-100 hover:bg-gray-200 hover:shadow-xl hover:scale-95 md:w-fit lg:px-6 lg:py-4 lg:font-semibold"
-        href="/demo"
+        href="#"
         rel="noopener noreferrer nofollow"
       >
         Book a demo
       </a>
       <a
         class="md:text-base w-11/12 rounded-md bg-blue-700 px-6 py-3 text-sm font-medium text-white text-center transition-all delay-100 hover:bg-blue-800 hover:shadow-xl hover:scale-95 md:w-fit lg:px-6 lg:py-4 lg:font-semibold"
-        href="/signup"
+        href="#"
         rel="noopener noreferrer nofollow"
       >
         Join Us Now

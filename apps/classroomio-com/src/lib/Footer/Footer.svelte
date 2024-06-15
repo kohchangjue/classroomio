@@ -10,14 +10,14 @@
         width="32"
         height="32"
         loading="lazy"
-        src="/logo-192.png"
+        src="/balogo.png"
         alt="classroomio logo"
         class="mb-5"
       />
       <p class="lg:text-base mb-5 mr-2 text-sm leading-7 tracking-wide text-gray-600 lg:leading-7">
-        Launch Your Online Bootcamp In Minutes
+       Transforming Education For Children In Minutes
         <br />
-        The easiest way to launch and scale your online bootcamp
+        The easiest way to empower the next generation
       </p>
       <!-- <a
         href="https://www.producthunt.com/posts/classroomio?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-classroomio"
@@ -32,13 +32,13 @@
         /></a
       > -->
       <div class="mt-5 flex items-center gap-3 lg:mt-10 lg:gap-7">
-        <a href="https://www.facebook.com/classroomiohq" target="_blank" aria-label="Facebook Link">
+        <a href="#" target="_blank" aria-label="Facebook Link">
           <LogoFacebook
             class="scale-90 cursor-pointer fill-gray-400 transition-all hover:scale-110 hover:fill-gray-500 lg:scale-150"
             size={20}
           />
         </a>
-        <a href="https://twitter.com/classroomio" target="_blank" aria-label="Twitter Link">
+        <a href="#" target="_blank" aria-label="Twitter Link">
           <img
             width="10"
             height="10"
@@ -48,7 +48,7 @@
             class="w-3 scale-90 cursor-pointer transition-all hover:scale-110 hover:fill-gray-500 lg:scale-150"
           />
         </a>
-        <a href="https://www.youtube.com/@ClassroomIO" target="_blank" aria-label="Youtube Link">
+        <a href="#" target="_blank" aria-label="Youtube Link">
           <LogoYoutube
             class="scale-90 cursor-pointer fill-gray-400 transition-all hover:scale-110 hover:fill-gray-500 lg:scale-150"
             size={20}
@@ -106,20 +106,20 @@
           <li
             class="lg:text-base text-sm leading-6 tracking-wide text-gray-600 hover:text-gray-900"
           >
-            <a target="_blank" href="https://classroomio.com/docs/"> Help center </a>
+            <a target="_blank" href="#"> Help center </a>
           </li>
           <li
             class="lg:text-base text-sm leading-6 tracking-wide text-gray-600 hover:text-gray-900"
           >
-            <a target="_blank" href="https://classroomio.com/docs/quickstart/signup">
+            <a target="_blank" href="#">
               Getting Started
             </a>
           </li>
-          <li
+          <!-- <li
             class="lg:text-base text-sm leading-6 tracking-wide text-gray-600 hover:text-gray-900"
           >
             <a href="/oss-friends"> OSS Friends </a>
-          </li>
+          </li> -->
         </ul>
       </div>
 
@@ -136,13 +136,13 @@
           <li
             class="lg:text-base text-sm leading-6 tracking-wide text-gray-600 hover:text-gray-900"
           >
-            <a href="mailto:help@classroomio.com" target="_blank"> Support </a>
+            <a href="mailto:help@brilliantaire.com" target="_blank"> Support </a>
           </li>
           <li
             class="lg:text-base text-sm leading-6 tracking-wide text-gray-600 hover:text-gray-900"
           >
             <a
-              href="https://app.enzuzo.com/policies/privacy/958fc978-5477-11ee-a03b-7b111830c594"
+              href="#"
               target="_blank"
             >
               Privacy policy
@@ -151,7 +151,7 @@
           <li
             class="lg:text-base text-sm leading-6 tracking-wide text-gray-600 hover:text-gray-900"
           >
-            <a target="_blank" href="https://classroomio.com/docs/quickstart/signup">
+            <a target="_blank" href="#">
               Getting Started
             </a>
           </li>
@@ -159,7 +159,7 @@
             class="lg:text-base text-sm leading-6 tracking-wide text-gray-600 hover:text-gray-900"
           >
             <a
-              href="https://app.enzuzo.com/policies/tos/958fc978-5477-11ee-a03b-7b111830c594"
+              href="#"
               target="_blank"
             >
               Terms of use
@@ -174,12 +174,13 @@
   >
     <p>All rights reserved.</p>
     <p class="flex items-center">
-      ClassroomIO © {new Date().getFullYear()} by
+      Brilliantaire © {new Date().getFullYear()} 
+      <!-- by
       <a href="https://twitter.com/rotimi_best" target="_blank" class="mx-1 text-blue-700 underline"
         >Rotimi Best</a
-      >
-      from
-      <img loading="lazy" alt="Nigerian Flag" src="/ng.png" class="ml-2 h-3 w-3" />
+      > -->
+      <!-- from -->
+      <!-- <img loading="lazy" alt="Nigerian Flag" src="/ng.png" class="ml-2 h-3 w-3" /> -->
     </p>
   </footer>
 </div>

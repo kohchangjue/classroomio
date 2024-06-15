@@ -119,13 +119,21 @@
         <li class="hover:bg-gray-100 px-4 py-2 rounded-md">Blog</li>
       </a>
 
+      <a
+      href="/teach"
+      class="text-gray-800 font-semibold text-sm cursor-pointer"
+      class:active={activeLink.startsWith('/teach')}
+    >
+      <li class="hover:bg-gray-100 px-4 py-2 rounded-md">Join Us</li>
+    </a>
+
       <!-- <a
         href="/pricing"
         class="text-gray-800 font-semibold text-sm cursor-pointer"
         class:active={activeLink.startsWith('/pricing')}
       >
       </a> -->
-      <li class="text-gray-800 font-semibold text-sm cursor-pointer hover:bg-gray-100 px-4 py-2 rounded-md">Course Offer (Upcoming)</li>
+      <li class="text-gray-800 font-semibold text-sm cursor-pointer hover:bg-gray-100 px-4 py-2 rounded-md">Course Offer (Coming Soon)</li>
 
       <!-- <a
         href="/docs"
@@ -139,7 +147,7 @@
     </ul>
   </nav>
 
-  <div class="justify-between items-center flex-row hidden md:hidden lg:flex">
+  <!-- <div class="justify-between items-center flex-row hidden md:hidden lg:flex">
     <a href="/discord" target="_blank">
       <img
         loading="lazy"
@@ -162,7 +170,7 @@
     >
       Dashboard
     </a>
-  </div>
+  </div> -->
 
   <button
     type="button"

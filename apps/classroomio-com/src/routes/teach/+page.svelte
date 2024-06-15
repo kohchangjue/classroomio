@@ -6,9 +6,9 @@
   const whyStart = [
     {
       src: '/teach/teach-from-anywhere.svg',
-      header: 'Fully Online; Teach from anywhere',
+      header: 'AI oriented LMS; Ease the way of teach',
       subText:
-        ' Facilitate a subject from the comfort of your space, engaging students from highly diverse background'
+        ' Facilitate a course content with the help of AI, shorten your time to prepare teaching materials'
     },
     {
       src: '/teach/get-paid.svg',
@@ -27,32 +27,32 @@
   const steps = [
     {
       title: 'Sign up',
-      subText: 'Create a free account on our platform by going to classroomio.com/signup'
+      subText: 'Create a free account on our platform by going to brilliantaire.com/signup'
     },
     {
-      title: 'Record a course',
-      subText: 'Prepare your content however you want and then upload them onto our platform.'
+      title: 'Choose a course',
+      subText: 'You can choose one or more course from your expertise, of couse, you can also propose new course to us.'
     },
     {
-      title: 'Launch the course',
-      subText: 'Polish your course, make sure it is ready for students. Then publish it.'
+      title: 'Interview with our centre manager',
+      subText: 'Introduce yourself with our centre manager, course offerred and availability.'
     },
     {
-      title: 'Start making sales',
+      title: 'Prepare teaching material',
       subText:
-        'Share your course with your audience and on social media and start earning money on the courses you create'
+        'Polish your course, make sure it is ready for students. You can make use of our LMS to make your way more effective.'
     }
   ];
 
   let faqs = [
     {
-      question: 'What kind of tutors does ClassroomIO look for?',
+      question: 'What kind of tutors does Brilliantaire look for?',
       answer:
         'We are looking for all kinds of tutors. The most important thing is that you have some experience teaching and you have proven track record of excellent communication',
       showAnswer: false
     },
     {
-      question: 'What equipment do I need to teach on ClassroomIO?',
+      question: 'What equipment do I need to teach on Brilliantaire?',
       answer: 'You just need internet access and a laptop.',
       showAnswer: false
     },
@@ -65,7 +65,7 @@
     {
       question: 'How much can I earn?',
       answer:
-        'That depends on how much your course sells for and how many students buy your course. Your income is limitless, you can keep making money while you sleep.',
+        'That depends on how many of the course offerred from you and your availability to teach the course. Your income is limitless.',
       showAnswer: false
     }
   ];
@@ -76,7 +76,7 @@
 </script>
 
 <svelte:head>
-  <title>Teach | ClassroomIO</title>
+  <title>Teach | Brilliantaire</title>
   <meta
     property="og:image"
     itemprop="image"
@@ -107,11 +107,11 @@
     <div>
       <h1 class="text-5xl font-bold">Teach with us</h1>
       <p class="my-5 lg:w-[77%] lg:text-left text-center">
-        With ClassroomIO, you can make side income while teaching the subject you love
+        With Brilliantaire, you can make side income while teaching the subject you love
       </p>
 
       <a
-        href="/teach/register"
+        href="#"
         target="_blank"
         class="w-full block text-center lg:w-[30%] py-3 text-base text-white rounded-md bg-[#1D4ED8]"
       >
@@ -167,7 +167,7 @@
       </div>
       <div class="flex justify-center px-[5%] mt-3">
         <a
-          href="/teach/register"
+          href="#"
           target="_blank"
           class="w-full lg:max-w-[20%] py-3 text-base text-white rounded-md bg-[#1D4ED8] text-center"
         >
@@ -185,13 +185,13 @@
         class="mt-10 w-full md:w-2/4 mx-auto border shadow-sm bg-white rounded-md text-center py-6 relative before:w-[4.5%] before:absolute before:left-0 before:top-0 before:h-full before:bg-[#0233BD] before:rounded-tl-md before:rounded-bl-md"
       >
         <h1 class="text-base font-medium leading-5 w-[77%] mx-auto">
-          With ClassroomIO, I am training over 100 students. I am making more money than expected
+          With Brilliantaire, I am training over 100 students. I am making more money than expected
           with little effort and my students are happy. Love the product
         </h1>
         <div class="flex flex-row gap-4 justify-center items-center mt-3">
           <img src="/teach/user-profile.png" alt="" class="w-8" />
           <p class="text-sm">
-            <span class="font-semibold mr-2"> Bilik Diana </span> English tutor
+            <span class="font-semibold mr-2"> Vincent Goh </span> AI & Robotic tutor
           </p>
         </div>
       </div>
@@ -221,10 +221,10 @@
     </div>
 
     <PageSignupCTA
-      header="Scale your Teaching Business in Minutes"
+      header="Earn your side income in Minutes"
       subText="Don't wait, let's get you started."
       btnLabel="Register"
-      link="/teach/register"
+      link="#"
       demo={false}
     />
   </div>
