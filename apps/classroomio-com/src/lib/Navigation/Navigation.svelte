@@ -190,8 +190,8 @@
           loading="lazy"
           width="20"
           height="20"
-          src="/logo-512.png"
-          alt="classroomio logo"
+          src="/balogo.png"
+          alt="brilliantaire logo"
           class="w-[15%]"
         />
         <button on:click={handleShowNav}><CloseLarge size={24} class="mr-5" /></button>
@@ -225,7 +225,7 @@
               </div>
             {/if}
           </li>
-          <a
+          <!-- <a
             class="text-gray-800 font-semibold text-sm md:text-lg cursor-pointer hover:bg-gray-100 py-3 px-4 rounded-xl w-full"
             on:click={() => {
               handleShowNav();
@@ -245,7 +245,7 @@
             target="_blank"
           >
             <li>Docs</li>
-          </a>
+          </a> -->
           <a
             class="text-gray-800 font-semibold text-sm md:text-lg cursor-pointer hover:bg-gray-100 py-3 px-4 rounded-md w-full"
             on:click={() => {
@@ -257,18 +257,28 @@
             <li>Blog</li>
           </a>
           <a
+          class="text-gray-800 font-semibold text-sm md:text-lg cursor-pointer hover:bg-gray-100 py-3 px-4 rounded-md w-full"
+          on:click={() => {
+            handleShowNav();
+          }}
+          class:active={activeLink.startsWith('/teach')}
+          href="/teach"
+        >
+          <li>Join Us</li>
+        </a>
+          <a
             class="text-gray-800 font-semibold text-sm md:text-lg cursor-pointer hover:bg-gray-100 py-3 px-4 rounded-md w-full"
             on:click={() => {
               handleShowNav();
             }}
-            class:active={activeHash.includes('morefeatures')}
+            class:active={activeHash.includes('teach')}
             href="/#morefeatures"
           >
-            <li>More features</li>
+            <li>Course Offer (Coming Soon)</li>
           </a>
         </ul>
       </nav>
-      <div class="flex items-start flex-col gap-y-2 mt-5 border-t-[1px] pt-5">
+      <!-- <div class="flex items-start flex-col gap-y-2 mt-5 border-t-[1px] pt-5">
         <a
           href="/discord"
           target="_blank"
@@ -301,7 +311,7 @@
         >
           Dashboard
         </a>
-      </div>
+      </div> -->
     </div>
   {/if}
 </div>
