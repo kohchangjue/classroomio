@@ -77,7 +77,7 @@
 
 <svelte:head>
   <title>Teach | Brilliantaire</title>
-  <meta
+  <!-- <meta
     property="og:image"
     itemprop="image"
     content="https://classroomio.com/teach/teacher-banner.png"
@@ -99,7 +99,7 @@
     name="twitter:description"
     content="On ClassroomIO you can make side income while doing what you love."
   />
-  <meta name="twitter:image" content="https://classroomio.com/teach/teacher-banner.png" />
+  <meta name="twitter:image" content="https://classroomio.com/teach/teacher-banner.png" /> -->
 </svelte:head>
 
 <section>

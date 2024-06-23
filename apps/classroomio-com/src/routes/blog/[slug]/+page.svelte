@@ -8,8 +8,8 @@
 
 <!-- SEO -->
 <svelte:head>
-  <title>{data.meta.title} | ClassroomIO Blog</title>
-  <meta property="og:type" content="article" />
+  <title>{data.meta.title} | Brilliantaire Blog</title>
+  <!-- <meta property="og:type" content="article" />
   <meta property="og:title" content={data.meta.title} />
 
   <meta property="og:type" content="website" />
@@ -23,7 +23,7 @@
   <meta property="twitter:url" content="https://www.classroomio.com/blog/" />
   <meta name="twitter:title" content={data.meta.title} />
   <meta name="twitter:description" content={data.meta.description} />
-  <meta name="twitter:image" content={data.meta.imageUrl} />
+  <meta name="twitter:image" content={data.meta.imageUrl} /> -->
 </svelte:head>
 
 <div class=" mt-[10%] md:mt-16">
