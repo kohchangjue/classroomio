@@ -33,9 +33,9 @@
       subtitle: 'Shape the future with tech'
     },
     {
-      key: 'professionaltutor',
-      title: 'Expert Involve',
-      subtitle: 'Let expert lead the ways'
+      key: 'oncloud',
+      title: '24/7 On Cloud',
+      subtitle: 'Anytime... Anywhere...'
     },
     {
       key: 'aiorientedlms',
@@ -66,7 +66,7 @@
     </div>
   </a>
 
-  <nav class="w-[40%] hidden md:hidden lg:block">
+  <nav class="w-[25%] hidden md:hidden lg:block">
     <ul class="flex items-center justify-between w-full gap-2">
       <li class="text-gray-800 font-semibold text-sm cursor-pointer relative">
         <button
@@ -92,7 +92,7 @@
                 <ForumIcon size={24} />
                 {:else if superpower.key === 'growwithtech'}
                   <MapCenter size={24} />
-                {:else if superpower.key === 'professionaltutor'}
+                {:else if superpower.key === 'oncloud'}
                 <CourseIcon />
                 {:else if superpower.key === 'aiorientedlms'}
                   <MachineLearningModel size={24} />
@@ -111,21 +111,21 @@
         {/if}
       </li>
       
-      <a
+      <!-- <a
         href="/blog"
         class="text-gray-800 font-semibold text-sm cursor-pointer"
         class:active={activeLink.startsWith('/blog')}
       >
         <li class="hover:bg-gray-100 px-4 py-2 rounded-md">Blog</li>
-      </a>
+      </a> -->
 
-      <a
+      <!-- <a
       href="/teach"
       class="text-gray-800 font-semibold text-sm cursor-pointer"
       class:active={activeLink.startsWith('/teach')}
     >
       <li class="hover:bg-gray-100 px-4 py-2 rounded-md">Join Us</li>
-    </a>
+    </a> -->
 
       <!-- <a
         href="/pricing"
@@ -133,7 +133,7 @@
         class:active={activeLink.startsWith('/pricing')}
       >
       </a> -->
-      <li class="text-gray-800 font-semibold text-sm cursor-pointer hover:bg-gray-100 px-4 py-2 rounded-md">Course Offer (Coming Soon)</li>
+      <li class="text-gray-800 font-semibold text-sm cursor-pointer hover:bg-gray-100 px-4 py-2 rounded-md">Career With Us (Coming Soon)</li>
 
       <!-- <a
         href="/docs"

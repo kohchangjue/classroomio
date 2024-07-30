@@ -7,7 +7,7 @@
   id="collaboration"
   tagline="Collaborative"
   title="Student and Teacher Community"
-  description="Our in-house LMS platform includes a forum-like feature where students and teachers can ask and answer questions, creating a collaborative learning environment. This fosters engagement and knowledge sharing among the community"
+  description="Forum-like feature where students and teachers can ask and answer questions, creating a collaborative learning environment. This fosters engagement and knowledge sharing among the community"
   src="/brainstorming.svg"
   rightToLeft={false}
 />
@@ -15,23 +15,23 @@
   id="growwithtech"
   tagline="Grow With Tech"
   title="Brilliantaire: Where Kids Grow with Technology"
-  description="At Brilliantaire, we believe in nurturing young minds to thrive in a tech-driven world. Our programs introduce children to the fascinating realms of robotics, artificial intelligence, and technology, sparking their curiosity and creativity. Join us on a journey where young learners not only grow with tech but also shape the future with innovation and knowledge."
+  description="Blending advanced AI with interactive learning experiences to inspire curiosity, enhance skills, and build a solid foundation for future success. Through tailored lessons and gamified challenges, Brilliantaire empowers students to explore their passions, master new concepts, and develop a lifelong love of learning."
   src="/drone.svg"
   rightToLeft={true}
 />
 <Section
-  id="professionaltutor"
-  tagline="Professional Tutor"
-  title="Brilliantaire Professional Tutoring: Where Expertise Leads the Way"
-  description="At Brilliantaire, we bring you the expertise of tutors who hail from esteemed tech industries, each boasting over 10 years of invaluable experience. With personalized guidance tailored to your needs, our tutors ensure that you not only master the intricacies of technology but also gain practical insights from real-world applications."
+  id="oncloud"
+  tagline="24/7 On Cloud"
+  title="Brilliantaire: Anytime !!! Anywhere !!!"
+  description="Brilliantaire ensures that students have access to their personalized learning environment anytime, anywhere. Whether they're diving into interactive lessons, collaborating with peers, or receiving real-time feedback, the platform's seamless cloud integration supports continuous learning and growth, no matter the time or place."
   rightToLeft={true}
   src="/teacher.svg"
 />
 <Section
   id="aiorientedlms"
-  tagline="AI Oriented In House LMS"
+  tagline="AI Oriented LMS"
   title="Where AI Meets Education, Every Step of the Way"
-  description="We harness the power of artificial intelligence to personalize learning experiences, adapt curriculum to individual needs, and optimize educational outcomes. With cutting-edge AI technologies at your fingertips, embark on a journey of discovery and mastery in the realm of artificial intelligence. Join AIcademy and revolutionize the way you learn, one algorithm at a time"
+  description="We harness the power of artificial intelligence to personalize learning experiences, adapt curriculum to individual needs, and optimize educational outcomes. "
   rightToLeft={false}
   src="/artificial-intelligence.svg"
 />

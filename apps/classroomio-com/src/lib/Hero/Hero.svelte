@@ -111,9 +111,7 @@
       </div>
 
       <p class="text-base mx-auto mt-10 px-4 text-slate-700 md:text-lg lg:mt-6 lg:w-[42%] lg:p-0">
-        Brilliantaire is dedicated to transforming education for children, providing them with the opportunity to learn essential future skills.
-        By preparing children for the technological advancements of tomorrow, 
-        Brilliantaire aims to empower the next generation to thrive in an increasingly digital and interconnected world.
+        Brilliantaire is a AI-Oriented LMS build for kids and teens, designed to make learning engaging and personalized by adapting to each student's unique needs and interests, fostering a love for education through interactive content, real-time feedback, and dynamic progress tracking.
       </p>
     </div>
 
@@ -124,9 +122,9 @@
           transition:fly={{ x: -100, delay: 100, easing: sineInOut }}
         >
           <a
-            href="/#professionaltutor"
+            href="/#oncloud"
             class="px-6 py-2 border-[1.5px] border-[#0233BD] rounded-[4px] bg-white text-[#0233BD] text-lg font-bold"
-            >Professional Tutors</a
+            >24/7 On Cloud</a
           >
 
           <svg
@@ -147,7 +145,7 @@
           <a
             href="/#aiorientedlms"
             class="px-6 py-2 border-[1.5px] border-[#9747FF] rounded-[4px] bg-white text-[#9747FF] text-lg font-bold"
-            >AI Oriented LMS Platform</a
+            >AI Oriented</a
           >
 
           <svg
@@ -170,15 +168,15 @@
         href="#"
         rel="noopener noreferrer nofollow"
       >
-        Book a demo
+        Book a demo (Coming Soon)
       </a>
-      <a
+      <!-- <a
         class="md:text-base w-11/12 rounded-md bg-blue-700 px-6 py-3 text-sm font-medium text-white text-center transition-all delay-100 hover:bg-blue-800 hover:shadow-xl hover:scale-95 md:w-fit lg:px-6 lg:py-4 lg:font-semibold"
         href="#"
         rel="noopener noreferrer nofollow"
       >
         Join Us Now
-      </a>
+      </a> -->
       <!-- <a
       class="font-medium lg:font-semibold text-sm md:text-base w-11/12 md:w-fit border px-6 py-3 lg:px-10 lg:py-5 rounded-md"
       href="/github"

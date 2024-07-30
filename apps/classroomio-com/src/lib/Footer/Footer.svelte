@@ -93,7 +93,7 @@
         </ul>
       </div> -->
 
-      <div>
+      <!-- <div>
         <p class="lg:text-base mb-3 text-base font-semibold leading-6 text-gray-900 lg:mb-10">
           Resources
         </p>
@@ -115,15 +115,15 @@
               Getting Started
             </a>
           </li>
-          <!-- <li
+          <li
             class="lg:text-base text-sm leading-6 tracking-wide text-gray-600 hover:text-gray-900"
           >
             <a href="/oss-friends"> OSS Friends </a>
-          </li> -->
+          </li>
         </ul>
-      </div>
+      </div> -->
 
-      <div>
+      <!-- <div>
         <p class="lg:text-base mb-3 text-base font-semibold leading-6 text-gray-900 lg:mb-10">
           Company
         </p>
@@ -167,6 +167,7 @@
           </li>
         </ul>
       </div>
+       -->
     </nav>
   </div>
   <footer

@@ -1,32 +1,32 @@
 export const faqs = [
   {
-    question: 'Who can benefit from Brilliantaire?',
+    question: 'What makes Brilliantaire different from other learning management systems?',
     answer:
-      'Brilliantaire can be beneficial for students who are interested in robotics, AI and IT courses. These courses can benefit anyone looking to enhance their skills in emerging technologies.',
+      'Brilliantaire stands out due to its advanced AI integration, which personalizes learning experiences based on each student\'s unique needs and interests. It offers interactive lessons, gamified challenges, and real-time feedback to keep students engaged and motivated.',
   },
   {
-    question: 'Will I be able to join Brilliantaire without technical skills?',
+    question: 'How does Brilliantaire ensure the safety and privacy of its users?',
     answer:
-      'Yes, you can join Brilliantaire even if you don\'t have technical skills. Brilliantaire offers courses designed to cater to individuals at various skill levels, including beginners with no prior technical knowledge.',
+      'Brilliantaire prioritizes user safety and privacy by implementing strict data protection measures. All data is encrypted, and we comply with relevant privacy laws and regulations to ensure that student information is secure and used responsibly.',
   },
   {
-    question: 'What tools are available for parents?',
+    question: 'Can students access Brilliantaire from different devices?',
     answer:
-      'Parents have access to various tools such as progress reports, communication platforms, and resources to support their children\'s learning journey at Brilliantaire.',
+      'Yes, Brilliantaire is fully cloud-based, allowing students to access their learning materials and progress from any device with an internet connection, whether it\'s a computer, tablet, or smartphone.',
   },
   {
-    question: 'Anything need to purchase (textbooks, materials etc) before kick start?',
+    question: 'How does Brilliantaire support diverse learning styles?',
     answer:
-      'Before kickstarting Brilliantaire, you may need to purchase textbooks, course materials, robotics kits, and possibly software licenses depending on the courses being offered.',
+      ' Brilliantaire uses AI to adapt content and teaching methods to match individual learning styles. Whether a student learns best through visual aids, interactive activities, or hands-on practice, Brilliantaire customizes the learning experience to fit their preferences.',
   },
   {
-    question: 'What kind of plans does Brilliantaire offer?',
+    question: 'What kind of support is available for students and parents using Brilliantaire?',
     answer:
-      'Brilliantaire offers various plans tailored to different levels of expertise and commitment, ranging from beginner courses to advanced certification programs.',
+      'Brilliantaire offers comprehensive support through a dedicated help center, including tutorials, FAQs, and live chat assistance. Additionally, parents can access progress reports and resources to stay informed about their child\'s learning journey.',
   },
   {
-    question: 'Does Brilliantaire provide free trail class session?',
+    question: 'How does Brilliantaire track and assess student progress?',
     answer:
-      'Brilliantaire may offer free trial class sessions for prospective students to experience the teaching style, curriculum, and overall learning environment before committing to a course.',
+      'Brilliantaire tracks student progress through a combination of interactive assessments, quizzes, and real-time analytics. The platform provides detailed reports on student performance, helping educators and parents identify areas for improvement and celebrate achievements.',
   },
 ];

@@ -36,7 +36,7 @@
   <PageSignupCTA
     header="Take Charge of Your Child’s Education. "
     subText="Try before you join. No credit card required."
-    btnLabel="Book now"
+    btnLabel="Book demo now (Coming Soon)"
     link="#"
   />
 </div>
